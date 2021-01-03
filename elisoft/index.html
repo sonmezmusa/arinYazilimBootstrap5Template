@@ -15,6 +15,7 @@
   </head>
   <body>
     
+    <!-- header navbar -->
     <header id="header">
         <nav class="navbar navbar-expand-md navbar-dark bg-danger py-3">
           <div class="container">
@@ -51,11 +52,47 @@
         </nav>
     </header>
 
+    <!-- Hero -->
     <section id="hero" class="dark-bg">
       <div class="container">
         <div class="d-flex h-100 flex-column text-light justify-content-center">
           <h1 class="display-1">eli`<span class="text-danger">S</span>`oft</h1>
           <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <span class="text-danger">Duis aute irure dolor in est nonluctes</span> reprehenderi.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="generic">
+      <div class="container">
+        <h2 class="display-5 text-danger mb-5">WHO WE ARE</h2>
+
+        <div class="row mb-3">
+          <div class="col-8 bg-light">
+            <div class="d-flex flex-column h-100 justify-content-center">
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+          </div>
+
+          <div class="col-4 p-0">
+            <img class="img-fluid" src="./img/company.jpg">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-8 bg-light">
+            <div class="d-flex flex-column h-100 justify-content-center">
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+          </div>
+
+          <div class="col-4 order-first p-0">
+            <img class="img-fluid" src="./img/company2.jpg">
+          </div>
         </div>
       </div>
     </section>
@@ -74,6 +111,14 @@
     'h-100' : 'yüksekliği ayarlar',
     'display-1' : 'büyüklüğü ayarlar',
     'lead' : 'paragrafın öne çıkmasını sağlar',
+    'row row-cols-2' : 'bu satırın içinde 2 sütun olmasını sağlar, fazla olan sütun alta kayar',
+    'col order-1' : 'satırın içindeki sütunların sırasını ayarlar(order-first, order-last)',
+    'col-4 offset-2' : 'satırın içindeki 4 sütunluk alanı 2 sütun sağa kaydırır',
+    'row gx/gy-5/g-0' : 'gutter kullanıldığı satırın öğeleri arasında padding verir, gutter istemiyorsak g-0',
+    'col-sm/md/lg/xl/xxl-6' : 'breakpoints kullanıldığı ekren ölçülerine göre sütunun davranışını belirler',
+    'img-fluid' : 'resmi responsive olarak bastırır',
+    'mb-5' : 'margin-bottom ve türevleri dış boşluk verir',
+    'bg-light' : 'kullanıldığı öğede arkaplan rengi türevlerini verir',
     
 
     'background-attachment: fixed;' : 'scrool hareketinde img sabit kalsın',
